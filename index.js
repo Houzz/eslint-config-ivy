@@ -47,7 +47,8 @@ module.exports = {
 	"rules": {
 		"indent": [
 			"error",
-			4
+			4,
+			{ "SwitchCase": 1 }
 		],
 		"max-len": ["error", { "code": 300 }],
 		"class-methods-use-this": "off",
