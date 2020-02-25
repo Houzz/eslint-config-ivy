@@ -60,7 +60,6 @@ module.exports = {
 			"error",
 			4
 		],
-		"no-useless-constructor": 0,
 		"no-return-assign": 0,
 		"no-shadow": "warn",
 		"no-case-declarations": 0,
