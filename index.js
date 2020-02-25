@@ -50,6 +50,12 @@ module.exports = {
 			4,
 			{ "SwitchCase": 1 }
 		],
+		"camelcase": [
+            "error",
+            {
+                "ignoreDestructuring": true
+            }
+        ],
 		"max-len": ["error", { "code": 300 }],
 		"class-methods-use-this": "off",
 		"react/jsx-fragments": ["error", "element"],
