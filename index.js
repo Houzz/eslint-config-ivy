@@ -53,7 +53,8 @@ module.exports = {
 		"camelcase": [
             "error",
             {
-                "ignoreDestructuring": true
+				"ignoreDestructuring": true,
+				"properties": "never"
             }
         ],
 		"max-len": ["error", { "code": 300 }],
