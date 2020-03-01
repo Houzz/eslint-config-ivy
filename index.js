@@ -94,6 +94,8 @@ module.exports = {
 		"import/prefer-default-export": 0,
 		"import/named": 0,
 		"arrow-parens": 0,
+		"global-require": 0,
+		"import/no-dynamic-require": 0,
 		"jsx-a11y/click-events-have-key-events": 0,
 		"jsx-a11y/no-noninteractive-element-interactions": 0,
 		"newline-before-return": 2,
