@@ -7,7 +7,7 @@ module.exports = {
 			"jsx": true,
 			"experimentalObjectRestSpread": true,
 			"experimentalDecorators": true,
-                        "legacyDecorators": true
+			"legacyDecorators": true
 		},
 		"sourceType": "module"
 	},
