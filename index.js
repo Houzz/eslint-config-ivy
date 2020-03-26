@@ -116,5 +116,6 @@ module.exports = {
 		"rootResolvePath": true,
 		"requireRouter": true,
 		"requireCommonRouter": true
-	}
+	},
+	"ignorePatterns": ["test/"],
 };
