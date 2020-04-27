@@ -74,21 +74,6 @@ module.exports = {
 		"no-case-declarations": 0,
 		"no-underscore-dangle": 0,
 		"no-restricted-globals": 0,
-		"no-restricted-imports": [
-			"error",
-			{
-				"patterns": [
-					"**/jukwaa-core/**",
-					"!jukwaa-core/**",
-					"**/jukwaa-shared-components/**",
-					"!jukwaa-shared-components/**",
-					"**/jukwaa-ui/**",
-					"!jukwaa-ui/**",
-					"**/graphouzz/**",
-					"!graphouzz/**"
-				]
-			}
-		],
 		"import/no-unresolved": 0,
 		"import/no-extraneous-dependencies": 0,
 		"import/extensions": 0,
