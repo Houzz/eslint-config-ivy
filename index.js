@@ -1,4 +1,4 @@
-const esLintConfig = {
+module.exports = {
 	"root": true,
 	"parser": "babel-eslint",
 	"extends": "eslint-config-airbnb",
@@ -104,15 +104,3 @@ const esLintConfig = {
 	},
 	"ignorePatterns": ["test/"],
 };
-
-const styleLintConfig = {
-	extends: 'stylelint-config-standard',
-	rules: {
-		indentation: 4,
-	},
-}
-
-module.exports = {
-	esLintConfig,
-	styleLintConfig,
-}

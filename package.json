@@ -3,6 +3,11 @@
   "version": "1.0.0",
   "description": "Eslint configuration for ivy projects",
   "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./stylelint": "./stylelint.js",
+    "./package.json": "./package.json"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
