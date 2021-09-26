@@ -74,6 +74,7 @@ module.exports = {
 		"no-case-declarations": 0,
 		"no-underscore-dangle": 0,
 		"no-restricted-globals": 0,
+		"no-nested-ternary": 0,
 		"import/no-unresolved": 0,
 		"import/no-extraneous-dependencies": 0,
 		"import/extensions": 0,
@@ -91,7 +92,9 @@ module.exports = {
 			{
 				"ignoreFunctionalComponents": true
 			}
-		]
+		],
+		"react/jsx-props-no-spreading": 0,
+		"react/prop-types": 0
 	},
 	"globals": {
 		"HZ": true,
