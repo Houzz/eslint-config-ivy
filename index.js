@@ -105,5 +105,4 @@ module.exports = {
 		"requireRouter": true,
 		"requireCommonRouter": true
 	},
-	"ignorePatterns": ["test/"],
 };
