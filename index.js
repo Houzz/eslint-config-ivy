@@ -16,7 +16,8 @@ module.exports = {
 		"node": true,
 		"commonjs": true,
 		"es6": true,
-		"jest": true
+		"jest": true,
+		"mocha": true
 	},
 	"settings": {
 		"import/resolver": {
@@ -105,5 +106,4 @@ module.exports = {
 		"requireRouter": true,
 		"requireCommonRouter": true
 	},
-	"ignorePatterns": ["test/"],
 };
