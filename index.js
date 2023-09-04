@@ -95,7 +95,9 @@ module.exports = {
 			}
 		],
 		"react/jsx-props-no-spreading": 0,
-		"react/prop-types": 0
+		"react/prop-types": 0,
+        "import/no-import-module-exports": 2,
+        "import/no-commonjs": 2
 	},
 	"globals": {
 		"HZ": true,
