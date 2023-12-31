@@ -98,6 +98,14 @@ module.exports = {
 		"react/prop-types": 0,
         "import/no-import-module-exports": 2,
         "import/no-commonjs": 2
+		'no-restricted-syntax': [
+			'error',
+			{
+			  "selector": 'Literal',
+			  "message": 'Avoid using RGB and RGBA color values.',
+			  "match": '^rgb\\(.*\\)$|^rgba\\(.*\\)$',
+			},
+		],
 	},
 	"globals": {
 		"HZ": true,
