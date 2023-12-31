@@ -116,4 +116,16 @@ module.exports = {
 		"requireRouter": true,
 		"requireCommonRouter": true
 	},
+	"overrides": [
+		{
+		  files: ['*.css', '*.less'],
+		  parser: 'stylelint',
+		  plugins: ['css-modules'],
+		  extends: ['stylelint-config-standard'],
+		  rules: {
+			'css-modules/no-undef-class': [2, { camelCase: true }],
+			'css-modules/no-unused-class': 2,
+		  },
+		},
+	],
 };
