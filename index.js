@@ -26,7 +26,10 @@ module.exports = {
 					".js",
 					".jsx",
 					".ts",
-					".tsx"
+					".tsx",
+					".css",
+					".scss",
+					".less",
 				],
 				"paths": [
 					"./",
