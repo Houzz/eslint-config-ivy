@@ -3,12 +3,8 @@ module.exports = {
 	extends: 'stylelint-config-standard',
 	rules: {
 		indentation: 4,
+		"color-named": "always-where-possible",
 		"color-no-hex": [true, { "message": "Don't use hex colors like \"%s\""}]
-		"custom-property-pattern": [
-			"^(?!.*(rgba|hex)).*$",
-			{
-			  "message": "Custom properties should not contain rgba or hex colors"
-			}
-		  ]
+		"function-disallowed-list": [["rgb","rgba", "hex"], { "message": "Don't use rgb, rgba or hex colors"}],
 	},
 };
