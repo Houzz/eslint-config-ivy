@@ -74,6 +74,30 @@ module.exports = {
         'react/prop-types': 0,
         'import/no-import-module-exports': 2,
         'import/no-commonjs': 2,
+        'import/order': [
+            'error',
+            {
+                groups: ['builtin', 'external', 'internal', 'parent', 'sibling', 'index'],
+                'newlines-between': 'always',
+                alphabetize: {
+                    order: 'asc',
+                    caseInsensitive: true,
+                },
+                pathGroups: [
+                    {
+                        pattern: 'react',
+                        group: 'external',
+                        position: 'before',
+                    },
+                    {
+                        pattern: '@houzz/**',
+                        group: 'internal',
+                        position: 'before',
+                    },
+                ],
+                pathGroupsExcludedImportTypes: ['react'],
+            },
+        ],
     },
     globals: {
         HZ: true,
