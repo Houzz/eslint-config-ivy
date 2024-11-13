@@ -71,6 +71,13 @@ module.exports = {
             },
         ],
         'react/jsx-props-no-spreading': 0,
+        'react/jsx-wrap-multilines': ['error', {
+            'declaration': 'parens-new-line',
+            'assignment': 'parens-new-line',
+            'return': 'parens-new-line',
+            'arrow': 'parens-new-line',
+            'logical': 'parens'
+        }],
         'react/prop-types': 0,
         'import/no-import-module-exports': 2,
         'import/no-commonjs': 2,
