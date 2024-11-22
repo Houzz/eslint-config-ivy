@@ -1,6 +1,6 @@
 {
     "name": "@houzz/eslint-config-ivy",
-    "version": "1.0.50",
+    "version": "1.0.51",
     "description": "ESlint configuration for ivy projects",
     "main": "index.js",
     "exports": {
