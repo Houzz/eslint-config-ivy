@@ -9,7 +9,7 @@ jobs:
     npm_publish:
         if: "! contains(toJSON(github.event.commits.*.message), '[Version Bump]')"
         name: NPM Publish
-        runs-on: arc-scale-set
+        runs-on: ubuntu-latest
         strategy:
             matrix:
                 node-version: [20.x]
