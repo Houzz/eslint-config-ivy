@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-ivy",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Eslint configuration for ivy projects",
   "main": "index.js",
   "exports": {
