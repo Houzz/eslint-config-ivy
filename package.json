@@ -1,16 +1,19 @@
 {
-  "name": "eslint-config-ivy",
-  "version": "1.0.1",
-  "description": "Eslint configuration for ivy projects",
-  "main": "index.js",
-  "exports": {
-    ".": "./index.js",
-    "./stylelint": "./stylelint.js",
-    "./package.json": "./package.json"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC"
+    "name": "@houzz/eslint-config-ivy",
+    "version": "1.0.49",
+    "description": "ESlint configuration for ivy projects",
+    "main": "index.js",
+    "exports": {
+        ".": "./index.js",
+        "./stylelint": "./stylelint.js",
+        "./package.json": "./package.json"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "publishConfig": {
+        "registry": "https://npm.pkg.github.com/Houzz"
+    },
+    "author": "",
+    "license": "ISC"
 }
