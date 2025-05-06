@@ -50,7 +50,7 @@ module.exports = {
         'no-shadow': 'warn',
         'no-case-declarations': 0,
         'no-underscore-dangle': 0,
-        'no-restricted-globals': 0,
+        'no-restricted-globals': ["error", "document", "DocumentType"],
         'no-nested-ternary': 0,
         'import/no-unresolved': 0,
         'import/no-extraneous-dependencies': 0,
